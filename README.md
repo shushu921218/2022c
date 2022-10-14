@@ -1,18 +1,19 @@
 # 2022c
 資傳一甲 程式設計 的程式碼
 
-#week01
+#Week01
 放假(中秋節)
 
-#week02
+# Week02
 
-#week03
+# Week03
 
-#week04
+# Week04
 
-#week05
+# Week05
 
-#week06
+# Week06
+
 ##step01-0
 考試九九乘法表 考前複習 考後檢討同學出錯的狀況
 ```cpp
