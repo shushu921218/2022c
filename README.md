@@ -14,7 +14,7 @@
 
 # Week06
 
-##step01-0
+## step01-0
 考試九九乘法表 考前複習 考後檢討同學出錯的狀況
 ```cpp
 #include <stdio.h>
@@ -31,7 +31,7 @@ int main()
 }
 ```
 
-#step01-1
+## step01-1
 畫星星-金字塔
 ```cpp
 #include <stdio.h>
@@ -44,7 +44,7 @@ int main()
 }
 ```
 
-#step02-1
+## step02-1
 暴力迴圈法
 ```cpp
 #include <stdio.h>
@@ -60,7 +60,7 @@ int main()
     printf("找到ans:%d",ans);
 }
 
-#step02-2
+## step02-2
 輾轉相除法
 ```cpp
 #include <stdio.h>
@@ -80,7 +80,7 @@ int main()
     printf("中的是:%d",b);
 }
 ```
-##step03-1
+## step03-1
 ```cpp
 #include <stdio.h>
 int main()
@@ -102,7 +102,7 @@ int main()
 ```
 
 # Week07
-##step01-1
+## step01-1
 ```cpp
 #include <stdio.h>
 int main()
@@ -114,7 +114,7 @@ int main()
     printf("%lld\n",a);
 }
 ```
-##step02-1
+## step02-1
 ```cpp
 #include <stdio.h>
 int main()
@@ -146,7 +146,7 @@ int main()
     }
     printf("答案是:%lld\n",b);
 }
-##step03-1
+## step03-1
 #include <stdio.h>
 int main()
 {
@@ -159,7 +159,7 @@ int main()
 }
 ```
 # Week08
-##step01-1
+## step01-1
 ```cpp
 #include <stdio.h>
 int main()
@@ -176,7 +176,7 @@ int main()
 	}
 }
 ```
-##step02-1
+## step02-1
 ```cpp
 #include <stdio.h>
 int main()
@@ -197,7 +197,7 @@ int main()
 	}
 }
 ```
-##step02-2
+## step02-2
 ```cpp
 #include <stdio.h>
 int main()
@@ -214,7 +214,7 @@ int main()
     else printf("%d不是質數(早就壞掉了)",n);
 }
 ```
-##step02-3
+## step02-3
 ```cpp
 #include <stdio.h>
 int main()
@@ -230,5 +230,20 @@ int main()
         }
         if(bad==0) printf("%d ",n);
     }
+}
+```
+
+# Week10
+## step01-1
+```cpp
+#include <stdio.h>
+int main()
+{
+    int a[4] = {10,20,30,40};
+
+    printf("a[0]:%d\n",a[0]);
+    printf("a[1]:%d\n",a[1]);
+    printf("a[2]:%d\n",a[2]);
+    printf("a[3]:%d\n",a[3]);
 }
 ```
