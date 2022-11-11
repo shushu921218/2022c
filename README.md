@@ -59,7 +59,7 @@ int main()
     }
     printf("找到ans:%d",ans);
 }
-
+```
 ## step02-2
 輾轉相除法
 ```cpp
