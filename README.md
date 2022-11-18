@@ -262,3 +262,45 @@ int main()
     }
 }
 ```
+
+#Week11
+## step01-1
+```cpp
+#include <stdio.h>
+int main()
+{
+    int a=90,b=80;
+    printf("a:%d b:%d\n",a,b);
+
+    int temp=a;
+    a=b;
+    b=temp;
+
+    printf("a:%d b:%d\n",a,b);
+}
+```
+
+## step01-2
+```cpp
+#include <stdio.h>
+int main()
+{
+    int a=90,b=80,c=70;
+    if(a>b){
+        int temp=a;
+        b=a;
+        b=temp;
+    }
+    if(b>c){
+        int temp=b;
+        b=c;
+        c=temp;
+    }
+    if(a>b){
+        int temp=a;
+        b=a;
+        b=temp;
+    }
+    printf("a:%d b:%d c:%d",a,b,c);
+}
+```
